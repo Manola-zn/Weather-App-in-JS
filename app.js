@@ -6,6 +6,8 @@ locationBtn = inputPart.querySelector("button"),
 weatherPart = wrapper.querySelector(".weather-part"),
 wIcon = weatherPart.querySelector("img"),
 arrowBack = wrapper.querySelector("header i"),
+      
+//You will need to create your own credential on Open Weather Map
 api_key= `your_api_key`;
 
 let api;
