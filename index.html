@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" href="images/suncloud.png" type="image/png" />
+    <title>Weather App in JavaScript</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Linking Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>    
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <i class="fa fa-cloud-sun"></i>
+        Weather App
+      </header>
+      <section class="input-part">
+        <p class="info-txt"></p>
+        <div class="content">
+          <input type="text" spellcheck="false" placeholder="Enter city name" required>
+           <button><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+        </div>
+      </section>
+      <section class="weather-part">
+        <div class="location">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <span>_, _</span>
+        </div> 
+        <div class="date"></div>
+        <img src="" alt="Weather Icon">
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">_ _</div>
+     
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class="fa fa-meteor"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class="fa fa-percent"></i>
+            <div class="details">
+              <span>_</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="column min">
+            <i class="fa fa-temperature-low"></i>
+            <div class="details">         
+              <span>_</span>
+              <span class="deg">°</span>C
+                <p>Min</p>
+            </div>
+          </div>
+          <div class="column max">
+            <i class="fa fa-temperature-high"></i>
+            <div class="details">
+              <span>_</span>
+              <span class="deg">°</span>C
+              <p>Max</p>
+            </div>
+          </div>
+        </div> 
+        <div class="bottom-details">
+          <div class="column sunrise">
+            <i class="bi bi-sunrise-fill"></i>
+            <div class="details">         
+              <span>_</span>
+              <span class="sunrise">AM</span>
+              <p>Sunrise</p>
+            </div>
+          </div>
+          <div class="column sunset">
+            <i class="bi bi-sunset-fill"></i>
+            <div class="details">
+              <span>_</span>
+              <span class="sunset">PM</span>
+              <p>Sunset</p>
+            </div>
+          </div>
+        </div>       
+      </section>
+      <footer>
+          <b>Developed by Manola Pillay</b>
+     </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/2c6133bcaa.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
